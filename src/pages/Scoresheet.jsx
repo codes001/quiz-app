@@ -9,12 +9,14 @@ function Scoresheet({ type }) {
   const pageData = data[type];
   return (
     <div className="bg-black text-white">
-      <Timer />
-      <header className="flex items-center h-28 px-10 bg-gray-100">
+      <header className="flex items-center justify-between h-28 px-10 bg-gray-100 text-black">
+        <div className="flex items-center">
         <i onClick={() => navigate('/')} className="fa-solid fa-home mr-10 text-4xl cursor-pointer"></i>
         <p className="text-5xl uppercase font-bold">
           {pageData.title}
         </p>
+        </div>
+        <Timer />
       </header>
       <div className="grid grid-cols-2 gap-5 gap-x-8 p-10 pt-16">
         {pageData.participants.map((participant, index) => (

@@ -7,7 +7,7 @@ import Timer from './components/Timer';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-black min-h-screen">
       <Router>
         <Routes>
           <Route index element={<Home />} />

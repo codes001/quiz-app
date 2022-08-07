@@ -12,10 +12,22 @@
 }
 
 .timer-text {
-    font-size: 120px;
+    font-size: 130px;
     line-height: 1;
+    font-weight: bold;
+}
+
+input {
+    color: black;
+    font-weight: bold;
 }
 
 input:focus {
     outline: none;
+}
+
+.home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)), url(./quiz-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }

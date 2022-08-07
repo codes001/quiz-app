@@ -4,12 +4,14 @@ import {useNavigate} from 'react-router-dom'
 function Home() {
     const navigate = useNavigate()
   return (
-    <div>
-        <h1>Welcome To The Nyaynya Youth Week, 2022</h1>
-        <h1>Quiz Competition (2nd Round)</h1>
-        <button onClick={() => navigate('first')}>Ages 6-10</button>
-        <button onClick={() => navigate('second')}>Ages 11-15</button>
+    <div className='home text-white flex flex-col items-center justify-center h-screen'>
+        <h1 className='text-6xl font-bold mb-10'>Welcome To The Nyanya Youth Week, 2022</h1>
+        <h1 className='text-6xl'>Quiz Competition (2nd Round)</h1>
+        <div className='flex items-center mt-10'>
+        <button className='bg-white text-black px-8 py-3 block text-3xl font-bold rounded-md mx-2' onClick={() => navigate('first')}>Ages 6-10</button>
+        <button className='bg-white text-black px-8 py-3 block text-3xl font-bold rounded-md mx-2' onClick={() => navigate('second')}>Ages 11-15</button>
         {/* <button onClick={() => navigate('third')}>Ages 16-20</button> */}
+        </div>
     </div>
   )
 }

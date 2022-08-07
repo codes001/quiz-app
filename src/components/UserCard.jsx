@@ -19,7 +19,7 @@ function UserCard({number, name}) {
             <input type="text" value={first === 0 ? '' : first} className='bg-gray-100 w-14 pl-4 border h-20 font-semibold user-text block' onChange= {(e) => handleFirstChange(e)}/>
             <input type="text" value={second === 0 ? '' : second} onChange= {(e) => handleSecondChange(e)} className='bg-gray-100 w-14 pl-4 border h-20 font-semibold user-text block'/>
             <input type="text" value={third === 0 ? '' : third} onChange= {(e) => handleThirdChange(e)} className='bg-gray-100 w-14 pl-4 border h-20 font-semibold user-text block'/>
-            <div className='bg-gray-100 w-14 flex items-center justify-center border h-20 font-semibold user-text block'>{total}</div>
+            <div className='text-black bg-gray-100 w-14 flex items-center justify-center border h-20 font-bold user-text block'>{total}</div>
         </div>
     </div>
   )
