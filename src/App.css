@@ -1,5 +1,5 @@
 .user-text {
-    font-size: 40px;
+    font-size: 36px;
 }
 
 .user-card {
@@ -18,7 +18,7 @@
 }
 
 input {
-    color: black;
+    color: black !important;
     font-weight: bold;
 }
 
