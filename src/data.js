@@ -26,6 +26,7 @@ const data = {
       "Nnonso Godwin Ekpo",
       "Daniel Amaefule",
       "Elisha Samuel",
+      "Albert Amaefule",
       "Jeremiah Samuel"
     ],
   },
