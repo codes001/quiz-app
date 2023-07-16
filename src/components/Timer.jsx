@@ -43,7 +43,7 @@ function Timer() {
             Hide
           </button>
         </div>
-      </div> : <p onClick={() => setShowTimer(true)} className="text-3xl cursor-pointer font-bold border shadow bg-black p-4 text-white rounded-md"><i className="fa-solid fa-stopwatch-20"></i> Show Timer</p>
+      </div> : <p onClick={() => setShowTimer(true)} className="text-3xl cursor-pointer font-bold border shadow bg-black p-4 text-white rounded-md"><i className="fa-solid fa-stopwatch"></i> Show Timer</p>
 }
     </div>
   );
