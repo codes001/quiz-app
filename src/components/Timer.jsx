@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 function Timer() {
-  let [count, setCount] = useState(20);
+  let [count, setCount] = useState(30);
   const [active, setActive] = useState(false);
   const [showTimer, setShowTimer] = useState(false);
   const onStart = () => {
