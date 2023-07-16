@@ -9,7 +9,7 @@ function Timer() {
   };
   const onReset = () => {
     setActive(false);
-    setCount(20);
+    setCount(30);
   };
   const onHide = () => setShowTimer(false);
   useEffect(() => {
