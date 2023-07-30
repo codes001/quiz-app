@@ -2,65 +2,47 @@ const data = {
   first: {
     title: "Ages 6-10",
     participants: [
-      "Atta Emmanuel George",
       "Victor Ajunwa",
-      "Enomfon J. Udo",
-      "Collete Lamay",
-      "Mmeyene Friday",
+      "Daniel Alex",
+      "Mmeyene Friday Uduak",
       "Splendor Hezekiah",
-      "George Itoro Edu",
-      "Ngozi Ezirim",
-      "Imaobong Itoro Edu",
       "Possible Clement",
-      "Esiet Etinyene Donald",
       "Medara Clement Essien",
-      "Emmanuel E. Effiong",
-      "Dominion Friday Edet",
-      "Oloche",
-      "Atta Queen Goerge",
-      "Kylan James",
-      "Sydney Joel Asuquo",
       "Semediong Friday",
-      "Daramfon Udo",
+      "Daramfon Udoh",
       "Richard Amaefule",
-      "Nnonso Godwin Ekpo",
-      "Daniel Amaefule",
-      "Elisha Samuel",
-      "Albert Amaefule",
-      "Jeremiah Samuel"
-    ],
+      "Nnonso Ekpo"
+    ]
+  ,
   },
   second: {
     title: "Ages 11-15",
     participants:  [
       "Prince Ojeh",
-      "Etimbuk James",
       "Ekemini Friday",
-      "Kelvin Emediong James",
+      "Kelvin James",
       "Faith Ojeh",
-      "Effiong Mmeyene Moses",
+      "Effiong Meyene Moses",
       "Gideon Friday",
       "Solomon Anwana",
-      "Ekom James",
-      "Goodluck Friday",
-      "Rejoice Ene Joseph",
-      "Eze O. Chidinma",
-      "Edith Icha Moses",
-      "Etieno-Abasi Itoro Edu",
-      "Nnamma Akpan",
-      "Rebecca Etim",
-      "Chioma Chukwu"
-    ],
+      "Gift iduh Mark",
+      "Chioma Chukwu",
+      "Emediong Asuquo",
+      "Etieno_Abasi Itoro Edu"
+    ]
+  ,
   },
   third: {
     title: "Ages 16-25",
-    participants: [
+    participants:  [
       "Effiong Mary Iyanam",
       "Gideon E. Jonah",
-      "Ohiri Goodluck",
-      "Benita Okereke",
-      "Prince Okwong"
-    ],
+      "Ohiri Goodluck Ugochukwu",
+      "Eze Chidinma",
+      "Prince Okwong",
+      "Vereto Praise"
+    ]
+  ,
   }
 };
 
