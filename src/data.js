@@ -2,34 +2,54 @@ const data = {
   first: {
     title: "Ages 6-10",
     participants: [
-      "Meyene Uduak",
-      "Splendor Hezekiah",
-      "Medara Clement Essien",
-      "Daramfon Udoh",
-      "Richard Amaefule",
+      "Collins",
+      "Mfonobong Emaeyak",
+      "Dominion Friday Edet",
+      "Goodheart Jackson",
+      "Imaobong Itoro Edu",
+      "Godgift Ajunwa",
+      "Splendor Chidiebube Nwabueze",
+      "Oboba Great",
+      "Ajunwa Victor Chiziruzo",
+      "Attah George Emmanuel",
+      "Attah George Queen Elizabeth",
+      "Adejo Ajogwu Oloche",
+      "Mfonobong Itone Edu",
+      "Semediona Uduak Friday",
+      "Confidence Moses Icha",
+      "Purity Moses Icha",
+      "Mmeyene Uduak Friday"
     ],
   },
   second: {
     title: "Ages 11-15",
-    participants: [
-      "Prince Ojeh",
-      "Faith Ojeh",
-      "Effiong Meyene Moses",
-      "Gideon Friday",
-      "Chioma Chukwu",
-      "Emediong Ekpo",
-      "Etieno-Abasi Itoro Edu",
+        participants: [
+      "Oche Yusuf Bobby",
+      "Ben Nnamma",
+      "Joel Sydney Asuquo",
+      "Esiet Etinyene Donald",
+      "Collins Yusuf Bobby",
+      "Medara Clement Essien",
+      "George Itora Edu",
+      "Edu Etienoabasi Itora",
+      "Ohiri Favour Chioma",
+      "Enyo-Ojo Samson Goodness",
+      "Edith Moses Icha",
+      "Ochanya Yusuf Bobby",
+      "Gideon Friday Edet",
+      "Daramfon Udoh"
     ],
   },
   third: {
     title: "Ages 16-25",
     participants: [
-      "Effiong Mary Iyanam",
-      "Gideon E Jonah",
-      "Ohiri Goodluck Ugochukwu",
-      "Prince Okwong",
+      "Ohiri Goodluck U.",
+      "Innocent Wisdom Enemona",
+      "Gideon Edet Jonah",
+      "Ogbonna Oluchukwu Precious"
     ],
   },
 };
 
 export default data;
+      

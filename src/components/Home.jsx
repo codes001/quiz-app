@@ -2,7 +2,7 @@ import React from 'react'
 import {useNavigate} from 'react-router-dom'
 
 function Home() {
-    const navigate = useNavigate()
+const navigate = useNavigate()
   return (
     <div className='home text-white flex flex-col items-center justify-center h-screen'>
         <h1 className='text-5xl font-bold mb-10'>Welcome To The Nyanya Youth Week, 2023</h1>
