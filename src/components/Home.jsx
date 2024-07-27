@@ -10,7 +10,7 @@ const navigate = useNavigate()
         <div className='flex items-center mt-10'>
         <button className='bg-white text-black px-8 py-3 block text-3xl font-bold rounded-md mx-2' onClick={() => navigate('first')}>Ages 6-10</button>
         <button className='bg-white text-black px-8 py-3 block text-3xl font-bold rounded-md mx-2' onClick={() => navigate('second')}>Ages 11-15</button>
-        <button className='bg-white text-black px-8 py-3 block text-3xl font-bold rounded-md mx-2' onClick={() => navigate('third')}>Ages 16-20</button>
+        <button className='bg-white text-black px-8 py-3 block text-3xl font-bold rounded-md mx-2' onClick={() => navigate('third')}>Ages 16-25</button>
         </div>
     </div>
   )
