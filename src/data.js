@@ -15,7 +15,7 @@ const data = {
       "Attah George Queen Elizabeth",
       "Adejo Ajogwu Oloche",
       "Mfonobong Itone Edu",
-      "Semediona Uduak Friday",
+      "Semediong Uduak Friday",
       "Confidence Moses Icha",
       "Purity Moses Icha",
       "Mmeyene Uduak Friday"
@@ -30,14 +30,13 @@ const data = {
       "Esiet Etinyene Donald",
       "Collins Yusuf Bobby",
       "Medara Clement Essien",
-      "George Itora Edu",
+      "George Itoro Edu",
       "Edu Etienoabasi Itora",
       "Ohiri Favour Chioma",
       "Enyo-Ojo Samson Goodness",
       "Edith Moses Icha",
       "Ochanya Yusuf Bobby",
       "Gideon Friday Edet",
-      "Daramfon Udoh"
     ],
   },
   third: {
