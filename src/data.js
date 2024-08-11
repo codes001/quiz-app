@@ -30,7 +30,6 @@ const data = {
     title: "Ages 16-25",
     participants: [
       "Ohiri Goodluck U.",
-      "Innocent Wisdom Enemona",
       "Gideon Edet Jonah",
       "Ogbonna Oluchukwu Precious"
     ],
