@@ -5,11 +5,10 @@ const data = {
      
       "Dominion Friday Edet",
       "Imaobong Itoro Edu",
-      "Splendor Chidiebube Nwabueze",
-      "Oboba Great",
+      
+      
       "Attah George Emmanuel",
-      "Attah George Queen Elizabeth",
-      "Purity Moses Icha",
+     
       "Mmeyene Uduak Friday"
     ],
   },
@@ -19,8 +18,7 @@ const data = {
       "Ben Nnamma",
       "Esiet Etinyene Donald",
       "Medara Clement Essien",
-      "George Itoro Edu",
-      "Edu Etienoabasi Itoro",
+     
       "Ohiri Favour Chioma",
       "Ochanya Yusuf Bobby",
       "Gideon Friday Edet",
