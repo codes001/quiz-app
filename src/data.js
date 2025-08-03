@@ -3,22 +3,29 @@ const data = {
     title: "Ages 6-10",
     participants: [
      
-      "Attah George Emmanuel",
-     
+      "Attah George Queen Elizabeth",
+      "Mfon-obong Emaeyak Isaac",
+      "Saviour Akamimo Charles",
+"Semaediong Uduak Friday",
+"Godsgift Chiedozie Ajunwa",
+"Chidiebube Splendor Nwabueze"     
     ],
   },
   second: {
     title: "Ages 11-15",
         participants: [
-      "Ben Nnamma",
-      "Ajunwa Victor C."
+      "Edu Etienoabasi Itoro",
+      "Ojeh Prince",
+      "Victor Ajunwa",
+      "Mendara Clement Essien",
+      "Ezekiel Akanimo"
       
     ],
   },
   third: {
     title: "Ages 16-25",
     participants: [
-      "Ben Nnamma",
+      "Ben Nnamma Akpan",
       "Ohiri Goodluck U.",
       "Ohiri Favour Chioma",
       "Gideon Edet Jonah",
