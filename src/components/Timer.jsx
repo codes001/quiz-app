@@ -32,9 +32,12 @@ function Timer() {
             {count < 10 && count >= 0 ? `0${count}` : count}
           </h1>
         </div>
-        <div className="controls grid grid-cols-3">
+        <div className="controls grid grid-cols-4">
           <button onClick={() => onStart()} className="px-3 py-2 bg-gray-800">
             Start
+          </button>
+          <button onClick={() => setActive(false)} className="px-3 py-2 bg-gray-800">
+            Pause
           </button>
           <button onClick={() => onReset()} className="px-3 py-2 bg-gray-800">
             Reset

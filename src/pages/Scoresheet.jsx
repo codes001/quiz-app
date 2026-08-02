@@ -20,7 +20,7 @@ function Scoresheet({ type }) {
       </header>
       <div className="grid grid-cols-2 gap-8 py-10 px-5 pt-16">
         {pageData.participants.map((participant, index) => (
-          <UserCard key={index} number={index} name={participant} />
+          <UserCard key={index} number={index} type={type} name={participant} />
         ))}
       </div>
     </div>

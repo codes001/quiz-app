@@ -1,10 +1,36 @@
 import React, { useState, useEffect } from "react";
 
-function UserCard({ number, name }) {
-  const [first, setFirst] = useState();
-  const [second, setSecond] = useState();
-  const [third, setThird] = useState();
-  const [total, setTotal] = useState();
+const STORAGE_TTL = 2 * 60 * 60 * 1000;
+
+function getStorageKey(type, number) {
+  return `nyanya-quiz-${type}-${number}`;
+}
+
+function loadScores(type, number) {
+  try {
+    const raw = localStorage.getItem(getStorageKey(type, number));
+    if (!raw) return null;
+    const { value, savedAt } = JSON.parse(raw);
+    if (!value || Date.now() - savedAt > STORAGE_TTL) {
+      localStorage.removeItem(getStorageKey(type, number));
+      return null;
+    }
+    return value;
+  } catch (e) {
+    return null;
+  }
+}
+
+function UserCard({ number, name, type }) {
+  const saved = loadScores(type, number);
+  const [first, setFirst] = useState(saved ? saved.first : undefined);
+  const [second, setSecond] = useState(saved ? saved.second : undefined);
+  const [third, setThird] = useState(saved ? saved.third : undefined);
+  const [total, setTotal] = useState(
+    saved && (saved.first || saved.second || saved.third)
+      ? +(saved.first || 0) + +(saved.second || 0) + +(saved.third || 0)
+      : ""
+  );
   useEffect(() => {
     if (first || second || third)
       setTotal(
@@ -17,6 +43,14 @@ function UserCard({ number, name }) {
     )
       setTotal("");
   }, [total, first, second, third]);
+  useEffect(() => {
+    try {
+      localStorage.setItem(
+        getStorageKey(type, number),
+        JSON.stringify({ value: { first, second, third }, savedAt: Date.now() })
+      );
+    } catch (e) {}
+  }, [first, second, third, type, number]);
   const handleFirstChange = (e) =>
     e.target.value.match(/[0-9]/) ? setFirst(e.target.value) : setFirst("");
   const handleSecondChange = (e) =>
