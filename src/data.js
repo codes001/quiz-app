@@ -22,6 +22,7 @@ const data = {
 "Purity Moses Icha",
 "Attah George Queen-Elizabeth",
 "Rehoboth Efiong Anwana",
+"Charis Efiong Anwana",
 "Adole Precious"
     ],
   },
