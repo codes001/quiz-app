@@ -3,27 +3,13 @@ const data = {
     title: "Ages 6-10",
     participants: [
      
-      "Saviour Akanimo",
-      "Oluwole Alexis Okikioluwa",
-      "Chidiogo Vincent Ajah",
 "Mfonobong Itoro Edu",
-"Stephanie Irete Daniel",
 "Chidiebube Splendor Nwabueze",     
-"Ukeme Monday Frank",
-"David Ekerette Emmanuel",
-"Odafe Stephen Daniel",
 "Goodheart Edidiong Jackson",
-"Maryjane Egobor",
-"Aidoko Praise Ojochegbe",
-"Enomfon Udoh",
 "Mfonobong Emaeyak Isaac",
-"Juanita Akande",
-"Donald Emaeyak Isaac",
-"Purity Moses Icha",
 "Attah George Queen-Elizabeth",
 "Rehoboth Efiong Anwana",
 "Charis Efiong Anwana",
-"Adole Precious"
     ],
   },
   // second: {
